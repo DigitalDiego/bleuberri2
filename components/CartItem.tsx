@@ -1,6 +1,6 @@
 import { useCart, Item } from "react-use-cart";
 import { Flex, Image, Text, Heading } from "@chakra-ui/react";
-import { formatCurrency } from "@/utils";
+import { formatCurrency } from "../utils";
 import Link from "next/link";
 
 export default function CartItem(props: Item) {
