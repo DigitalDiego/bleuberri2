@@ -14,7 +14,7 @@ export default function App({ Component, pageProps }: AppProps) {
       <Head>
         <title>Bleuberri</title>
         <link
-          href="https://fonts.googleapis.com/css2?family=Lobster&family=Poppins&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@400;600&display=swap"
           rel="stylesheet"
         />
       </Head>
