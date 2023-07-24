@@ -1,6 +1,6 @@
 import { Flex, Heading, Text, Select, SimpleGrid } from "@chakra-ui/react";
-import { Item } from "@/components";
-import { items } from "@/data";
+import { Item } from "../../components";
+import { items } from "../../data";
 
 export default function Shop() {
   return (

@@ -1,8 +1,8 @@
-import { useMenuStore } from "@/store/menuStore";
+import { useMenuStore } from "../store/menuStore";
 import { Container, Text, Flex } from "@chakra-ui/react";
 import Link from "next/link";
 import { AiOutlinePlus } from "react-icons/ai";
-import { navLinks } from "@/constants";
+import { navLinks } from "../constants";
 import { useCart } from "react-use-cart";
 import { AiOutlineShopping, AiFillShopping } from "react-icons/ai";
 

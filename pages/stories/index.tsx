@@ -1,6 +1,6 @@
 import { Flex, Text, Heading } from "@chakra-ui/react";
-import { Story } from "@/components";
-import { stories } from "@/constants";
+import { Story } from "../../components";
+import { stories } from "../../constants";
 
 export default function Stories() {
   return (

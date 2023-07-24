@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { GetServerSidePropsContext } from "next";
-import { items } from "@/data";
-import { ItemProps } from "@/types";
+import { items } from "../../../data";
+import { ItemProps } from "../../../types";
 import {
   Flex,
   Heading,
@@ -12,7 +12,7 @@ import {
   IconButton,
 } from "@chakra-ui/react";
 import { AiOutlineMinus, AiOutlinePlus } from "react-icons/ai";
-import { formatCurrency } from "@/utils";
+import { formatCurrency } from "../../../utils";
 import { useCart, Item } from "react-use-cart";
 import { useRouter } from "next/navigation";
 

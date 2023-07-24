@@ -1,9 +1,9 @@
 import Head from "next/head";
 import { useCart } from "react-use-cart";
 import { Flex, Heading, Text, Button, Input, Box } from "@chakra-ui/react";
-import { formatCurrency, getStripe } from "@/utils";
+import { formatCurrency, getStripe } from "../../utils";
 import Link from "next/link";
-import { CartItem } from "@/components";
+import { CartItem } from "../../components";
 
 export default function Cart() {
   const { isEmpty, cartTotal, items } = useCart();

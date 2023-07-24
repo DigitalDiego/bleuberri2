@@ -2,7 +2,7 @@ import { ItemProps } from "@/types";
 import { Flex, Image, Text, Heading } from "@chakra-ui/react";
 import Head from "next/head";
 import Link from "next/link";
-import { formatCurrency } from "@/utils";
+import { formatCurrency } from "../utils";
 
 export default function Item(props: ItemProps) {
   const { id, name, image, price } = props;
